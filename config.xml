@@ -81,9 +81,14 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <engine name="android" spec="~7.0.0" />
+    <plugin name="cordova-plugin-facebook4" spec="^2.1.0">
+        <variable name="APP_ID" value="262613364247603" />
+        <variable name="APP_NAME" value="serveja" />
+    </plugin>
     <plugin name="cordova-plugin-googleplus" spec="^5.3.0">
         <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.675857416832-cja7rbuo650a35cjcksnq9o4qnln2afk" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="675857416832-gkkntadhdgbjs8o19akb071ho7stguki.apps.googleusercontent.com" />
     </plugin>
-    <engine name="android" spec="~7.0.0" />
-    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
 </widget>
